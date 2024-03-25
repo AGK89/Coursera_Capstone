@@ -49,8 +49,8 @@ The correlation Heat-Map of the dataset was explored. However, it did not provid
 
 The k-nearest neighbors (KNN) algorithm is a simple, supervised machine learning algorithm that can be used to solve both classification and regression problems. It's easy to implement and understand, but has a major drawback of becoming significantly slows as the size of that data in use grows. Here we will be trying different values for k and get the result of the besk k-value which will be used to predict the output,i.e., KNN will help us predict the severity code of an outcome by finding the most similar data-point within k distance.<br>
 
-![KNN algorithm-1](img/00.PNG "KNN Algorithm")
-![KNN algorithm-2](img/01.PNG "KNN Algorithm Evaluation")
+![00](https://github.com/AGK89/Coursera_Capstone/assets/153049066/89a2da8b-4a3c-4706-b617-9a1eddfbbd49)
+![01](https://github.com/AGK89/Coursera_Capstone/assets/153049066/a8244d6f-dd4f-4816-947b-42afd87c3871)
 <br><br>
 
 **2. Decision Tree** <br>
@@ -58,7 +58,7 @@ The k-nearest neighbors (KNN) algorithm is a simple, supervised machine learning
 Decision Trees (DTs) are a non-parametric supervised learning method used for classification and regression. The goal is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the data features. <br>
 A decision tree model gives us a layout of all possible outcomes so we can fully analyze the concequences of a decision. In this context, the decision tree observes all possible outcomes of different weather conditions.<br>
 
-![DT algorithm-2](img/02.PNG "Decision Tree Algorithm")
+![02](https://github.com/AGK89/Coursera_Capstone/assets/153049066/b19343a5-1202-4cbd-97b7-0ac993e69f47)
 
 <br><br>
 
@@ -67,7 +67,7 @@ A decision tree model gives us a layout of all possible outcomes so we can fully
 Logistic regression is a classification algorithm used to assign observations to a discrete set of classes. Unlike linear regression which outputs continuous number values, logistic regression transforms its output using the logistic sigmoid function to return a probability value which can then be mapped to two or more discrete classes. <br>
 Because our current dataset (in this case) only provides us with two severity code outcomes, our model will only predict one of those two classes. This makes our classification binary, and logistic regression is a go-to method for binary classification problems, which makes it perfect for us.<br>
 
-![LR algorithm-2](img/03.PNG "Logistic Regression Algorithm")
+![03](https://github.com/AGK89/Coursera_Capstone/assets/153049066/60a8ded4-e00e-4a80-87a3-ddc068ed920e)
 
 <br>
 <br>
@@ -76,7 +76,7 @@ Because our current dataset (in this case) only provides us with two severity co
 
 The dataset was fed to the Machine Learning Algorithms as mentioned in the Methodology Section. The accuracy of the 3 models are as shown below :<br>
 
-![Results](img/04.PNG "Results")
+![04](https://github.com/AGK89/Coursera_Capstone/assets/153049066/ef7bee60-c45a-43bb-a92a-6cd86eeacf16)
 
 <br>
 The above table shows that the Decision Tree Algorithm gives the highest accuracy of 56% (which 2% higher than Logistic Regression). 
