@@ -13,7 +13,7 @@ The primary goal of this project is to construct a predictive model that, when g
 
 ## Dataset
 
-The dataset used in this project comprises detailed records of traffic accidents, encompassing a wide range of variables such as weather conditions, road conditions, time of day, and many others that are believed to have a significant impact on the outcome of accidents. The dataset is sourced from [provide dataset source here], ensuring a robust foundation for model training and validation.
+The dataset used in this project comprises detailed records of traffic accidents, encompassing a wide range of variables such as weather conditions, road conditions, time of day, and many others that are believed to have a significant impact on the outcome of accidents. The dataset is sourced from <a href="https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Metadata.pdf">here</a>, ensuring a robust foundation for model training and validation.
 
 ## Methodology
 
